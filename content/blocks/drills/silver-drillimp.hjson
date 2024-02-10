@@ -1,0 +1,41 @@
+{
+name: Silver impact drill
+type: GenericCrafter
+health: 1000
+size: 3
+category: production
+research: sporine
+
+craftTime: 160
+craftEffect: reactorsmoke
+outputItem: silver/6
+
+consumes: {
+liquids: [
+sporine/0.4
+cryofluid/0.2
+]
+}
+
+    drawer: [
+        {
+            type: DrawDefault
+        }
+        {
+            type: DrawRegion
+            suffix: -rotator
+            rotateSpeed: 1.5
+        }
+        {
+            type: DrawRegion
+            suffix: -top
+        }
+    ]
+
+requirements: [
+titanium/50
+silicon/20
+plastanium/30
+thorium/25
+]
+}

@@ -1,0 +1,32 @@
+{
+name: board crafter
+description: creates empty boards from some silicon and steel with heavy oil and arkycite
+type: GenericCrafter
+health: 1000
+size: 3
+category: crafting
+research: steel
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItem: empty-board/2
+
+consumes: {
+items: [
+steel/1
+silicon/2
+]
+liquids: [
+arkycite/0.2
+heavy-oil/0.2
+]
+}
+
+requirements: [
+plastanium/45
+thorium/100
+steel/25
+aluminium/45
+silver/140
+]
+}

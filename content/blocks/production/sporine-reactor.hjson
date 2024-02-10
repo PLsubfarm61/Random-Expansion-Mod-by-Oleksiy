@@ -1,0 +1,29 @@
+{
+name: Sporine reactor
+description: with combination of arkycite and sporine with cryofluid as coolant this reactor produces molten aluminium and plastanium
+type: GenericCrafter
+health: 1000
+size: 3
+category: crafting
+research: sporine
+
+craftTime: 80
+craftEffect: vapor
+outputItem: plastanium/1
+outputLiquid: molten-aluminium/0.2
+
+consumes: {
+liquids: [
+sporine/0.4
+arkycite/0.3
+cryofluid/0.5
+]
+}
+
+requirements: [
+raw-iridium/55
+plastanium/100
+silicon/150
+silver/230
+]
+}

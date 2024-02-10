@@ -1,0 +1,14 @@
+{
+name: Sporine
+description: A gas formed in process of spore deconstruction, very flammable
+type: liquid
+temperature: 0.10
+viscosity: 0.90
+flammability: 2
+explosiveness: 0
+heatCapacity: 1
+color: 9e78dc
+lightColor: ffcac208
+research: spore-dryer
+gas: true
+}

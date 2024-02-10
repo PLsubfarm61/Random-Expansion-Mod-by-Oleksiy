@@ -1,0 +1,20 @@
+{
+    type: "ConsumeGenerator",
+    category: "power",
+    name: "Biomass Generator",
+    size: 2,
+    health: 900,
+    powerProduction: 20,
+    itemDuration: 240,
+
+    consumes: {
+    item: "biomass"
+},
+    requirements: [
+        "silver/150",
+        "electronic-circuit/15",
+        "silicon/100",
+        "lead/200",
+        "copper/340"
+    ],
+    }

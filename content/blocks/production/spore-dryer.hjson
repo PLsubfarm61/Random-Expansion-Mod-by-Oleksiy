@@ -1,0 +1,43 @@
+{
+name: Spore Dryer
+type: GenericCrafter
+health: 1000
+size: 3
+category: crafting
+research: spore-pod
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItem: dryed-spores/1
+outputLiquid: sporine/0.2
+consumes: {
+items: [
+spore-pod/1
+]
+}
+
+drawer: {
+  type: DrawMulti
+        drawers: [
+        {
+       type: DrawRegion
+       suffix: -bottom
+	   }
+        {
+        type: DrawLiquidTile
+        drawLiquid: sporine
+        suffix: -liquid
+        }
+                {
+            type: "DrawRegion",
+            suffix: "-top"
+        }
+  ]
+}
+
+requirements: [
+copper/55
+lead/25
+graphite/40
+]
+}

@@ -1,0 +1,14 @@
+{
+type: material
+name: Rock
+description: an matelial from which is all serpulo, can be crushed into sand
+cost: 3.0
+color: ffffff
+research: silver
+
+explosiveness: 0.10
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 1
+}

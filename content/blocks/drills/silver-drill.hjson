@@ -1,0 +1,43 @@
+{
+name: Silver Drill
+type: GenericCrafter
+health: 1000
+size: 2
+category: production
+research: titanium
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItem: silver/2
+
+consumes: {
+items: [
+lead/1
+]
+liquids: [
+water/0.2
+]
+}
+
+    drawer: [
+        {
+            type: DrawDefault
+        }
+        {
+            type: DrawRegion
+            suffix: -rotator
+            rotateSpeed: 1.5
+        }
+        {
+            type: DrawRegion
+            suffix: -top
+        }
+    ]
+
+requirements: [
+copper/25
+titanium/10
+lead/15
+graphite/10
+]
+}

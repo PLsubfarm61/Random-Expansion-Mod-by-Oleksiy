@@ -1,0 +1,12 @@
+{
+name: Silver wall
+type: wall
+health: 2670
+size: 2
+category: defense
+research: silver
+
+requirements: [
+silver/24
+]
+}

@@ -1,0 +1,4 @@
+type: OreBlock
+wallOre: false
+itemDrop: rock
+variants: 1

@@ -1,0 +1,27 @@
+{
+name: aluminium cooler
+type: GenericCrafter
+health: 1000
+size: 3
+category: production
+research: sporine-reactor
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItem: aluminium/1
+outputLiquid: water/0.2
+
+consumes: {
+liquids: [
+molten-aluminium/0.2
+water/0.2
+]
+}
+
+requirements: [
+raw-iridium/25
+silicon/65
+silver/95
+thorium/55
+]
+}

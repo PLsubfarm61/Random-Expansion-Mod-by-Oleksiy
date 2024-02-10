@@ -1,0 +1,14 @@
+{
+type: material
+name: Aluminium
+description: a recource which can be only be cooled from molten aluminium which is from sporine reactor
+cost: 3.0
+color: ffffff
+research: sporine-reactor
+
+explosiveness: 0.10
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}

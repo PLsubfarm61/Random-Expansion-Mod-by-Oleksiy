@@ -1,0 +1,13 @@
+{
+name: small topper wall
+type: wall
+health: 890
+size: 1
+category: defense
+research: topper-wall
+
+requirements: [
+copper/4
+titanium/2
+]
+}

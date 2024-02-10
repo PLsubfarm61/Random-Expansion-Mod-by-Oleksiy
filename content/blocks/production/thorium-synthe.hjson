@@ -1,0 +1,30 @@
+{
+name: thorium synthesizer
+type: GenericCrafter
+health: 1000
+size: 3
+category: crafting
+research: sporine-reactor
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItem: thorium/1
+outputLiquid: water/0.2
+
+consumes: {
+items: [
+oxide/1
+]
+liquids: [
+arkycite/0.3
+sporine/0.2
+]
+}
+
+requirements: [
+graphite/25
+silicon/65
+silver/95
+titanium/55
+]
+}

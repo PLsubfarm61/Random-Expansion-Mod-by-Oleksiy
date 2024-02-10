@@ -1,0 +1,27 @@
+{
+name: Copper purifier
+type: GenericCrafter
+health: 1000
+size: 2
+category: crafting
+research: slag
+
+craftTime: 80
+craftEffect: vapor
+outputItem: copper/1
+outputLiquid: slag/0.2
+
+consumes: {
+liquids: [
+molten-copper/0.2
+water/0.2
+]
+}
+
+requirements: [
+copper/25
+silicon/10
+lead/15
+silver/10
+]
+}

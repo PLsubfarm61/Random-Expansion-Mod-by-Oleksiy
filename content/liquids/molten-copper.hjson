@@ -1,0 +1,12 @@
+{
+name: molten copper
+type: liquid
+temperature: 0
+viscosity: 0
+flammability: 0
+explosiveness: 0
+heatCapacity: 0
+color: ff9382
+lightColor: ffcac208
+research: copper
+}

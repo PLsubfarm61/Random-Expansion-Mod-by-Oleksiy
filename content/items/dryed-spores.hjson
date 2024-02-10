@@ -1,0 +1,14 @@
+{
+type: material
+name: Dryed spores
+description: dried variant of normal spores,highly flammable 
+cost: 3.0
+color: ffffff
+research: spore-dryer
+
+explosiveness: 0.20
+flammability: 2
+radioactivity: 0
+charge: 0
+hardness: 0.10
+}

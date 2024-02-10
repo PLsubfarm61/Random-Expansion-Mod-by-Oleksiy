@@ -1,0 +1,29 @@
+{
+name: Rock crusher tier 3
+description: crushes rocks into sand,silver and thorium
+type: GenericCrafter
+health: 1000
+size: 2
+category: crafting
+research: rock-crushertwo
+
+craftTime: 80
+craftEffect: turbinegenerate
+outputItems: [
+sand/5
+silver/3
+thorium/1
+]
+
+consumes: {
+items: [
+rock/4
+]
+}
+
+requirements: [
+phase-fabric/25
+raw-iridium/25
+surge-alloy/40
+]
+}

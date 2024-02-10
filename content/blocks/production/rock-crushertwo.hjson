@@ -1,0 +1,29 @@
+{
+name: Rock crusher tier2
+description: crushes rocks into titanium, silicon and coal
+type: GenericCrafter
+health: 1000
+size: 2
+category: crafting
+research:rock-crusher
+
+craftTime: 80
+craftEffect: turbinegenerate
+outputItems: [
+titanium/2
+silicon/2
+coal/3
+]
+
+consumes: {
+items: [
+rock/2
+]
+}
+
+requirements: [
+thorium/130
+silver/250
+plastanium/70
+]
+}

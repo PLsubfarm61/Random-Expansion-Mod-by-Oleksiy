@@ -1,0 +1,47 @@
+{
+name: Arkycite mixer
+description: with silver and erekir technologies, this block mixes dryed spores,lead, molten silver and ozone to form arkycite and raw iridium as byproduct
+type: GenericCrafter
+health: 1000
+size: 3
+category: crafting
+research: thorium
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputLiquid: arkycite/0.4
+outputItem: raw-iridium/1
+
+consumes: {
+items: [
+dryed-spores/1
+lead/2
+]
+liquids: [
+ozone/0.2
+molten-silver/0.2
+]
+}
+
+    drawer: [
+        {
+            type: DrawDefault
+        }
+        {
+            type: DrawRegion
+            suffix: -rotator
+            rotateSpeed: 1
+        }
+        {
+            type: DrawRegion
+            suffix: -top
+        }
+    ]
+
+requirements: [
+copper/25
+thorium/10
+silicon/55
+silver/35
+]
+}

@@ -1,0 +1,13 @@
+{
+name: topper wall
+type: wall
+health: 2100
+size: 2
+category: defense
+research: titanium
+
+requirements: [
+copper/12
+titanium/6
+]
+}

@@ -1,0 +1,12 @@
+{
+name: small Silver wall
+type: wall
+health: 950
+size: 1
+category: defense
+reserach: silver-wall
+
+requirements: [
+silver/6
+]
+}

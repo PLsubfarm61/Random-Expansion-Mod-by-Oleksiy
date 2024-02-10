@@ -1,0 +1,29 @@
+{
+name: Biowater mixer
+description: needs some arkycite and water with kerosene to make biowater and spore pods(bruh this recipe will be hated by polish subfarm)
+type: GenericCrafter
+health: 1000
+size: 3
+category: crafting
+research: sporine
+
+craftTime: 80
+craftEffect: vapor
+outputItem: spore-pod/1
+outputLiquid: biowater/0.2
+
+consumes: {
+liquids: [
+kerosene/0.4
+arkycite/0.3
+water/0.5
+]
+}
+
+requirements: [
+steel/50
+electronic-circuit/10
+silicon/150
+aluminium/230
+]
+}

@@ -1,0 +1,14 @@
+{
+type: material
+name: Steel
+description: strong and durable material used with aluminium in factories and to build new factories and walls
+cost: 3.0
+color: ffffff
+research: aluminium
+
+explosiveness: 0.30
+flammability: 0.80
+radioactivity: 0.20
+charge: 0
+hardness: 2
+}

@@ -1,0 +1,4 @@
+type: OreBlock
+wallOre: false
+itemDrop: raw-iridium
+variants: 1

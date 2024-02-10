@@ -1,0 +1,26 @@
+{
+name: Steel smelter
+type: GenericCrafter
+health: 1000
+size: 2
+category: production
+research: aluminium
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItem: steel/2
+
+consumes: {
+liquids: [
+molten-aluminium/0.2
+molten-silver/0.2
+]
+}
+
+requirements: [
+raw-iridium/65
+thorium/35
+silver/45
+aluminium/20
+]
+}

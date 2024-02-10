@@ -1,0 +1,29 @@
+{
+name: Rock crusher
+description: crushes rocks into sand,lead and coal
+type: GenericCrafter
+health: 1000
+size: 2
+category: crafting
+research: rock
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItems: [
+sand/2
+lead/1
+coal/1
+]
+
+consumes: {
+items: [
+rock/2
+]
+}
+
+requirements: [
+rock/25
+lead/25
+silver/40
+]
+}

@@ -1,0 +1,14 @@
+{
+name: Kerosene
+description: a gas formed in process of oil cracking
+type: liquid
+temperature: 0.10
+viscosity: 0.90
+flammability: 4
+explosiveness: 0
+heatCapacity: 1
+color: 9e78dc
+lightColor: ffcac208
+research: cracking-tower
+gas: true
+}

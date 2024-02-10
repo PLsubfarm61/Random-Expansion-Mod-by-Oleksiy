@@ -1,0 +1,25 @@
+{
+name: Silver Smelter
+type: GenericCrafter
+health: 1300
+size: 2
+category: crafting
+research: silver-drill
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputLiquid: molten-silver/0.2
+
+consumes: {
+items: [
+silver/2
+]
+}
+
+requirements: [
+copper/125
+titanium/25
+lead/65
+silver/25
+]
+}

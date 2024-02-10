@@ -1,0 +1,28 @@
+{
+name: oil cracker
+description: with power of sporine this machine cracks oil into kerosene and heavy oil
+type: GenericCrafter
+health: 1000
+size: 3
+category: crafting
+research: oil
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputLiquid: kerosene/0.3
+
+
+consumes: {
+liquids: [
+oil/0.4
+sporine/0.2
+]
+}
+
+requirements: [
+thorium/25
+silicon/65
+silver/95
+titanium/55
+]
+}

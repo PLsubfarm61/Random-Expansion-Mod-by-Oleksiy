@@ -1,0 +1,29 @@
+{
+name: Oxide oxigene
+description: from sporine, hydrogen and titanium creates oxide
+type: GenericCrafter
+health: 1000
+size: 3
+category: crafting
+research: thorium
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItem: oxide/2
+
+consumes: {
+items: [
+titanium/1
+]
+liquids: [
+hydrogen/0.2
+sporine/0.2
+]
+}
+requirements: [
+aluminium/25
+thorium/10
+titanium/55
+plastanium/35
+]
+}

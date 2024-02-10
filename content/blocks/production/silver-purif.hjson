@@ -1,0 +1,27 @@
+{
+name: Silver Purifier
+type: GenericCrafter
+health: 1000
+size: 2
+category: crafting
+research: molten-silver
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItem: silver/1
+outputLiquid: oil/0.2
+
+consumes: {
+liquids: [
+molten-silver/0.2
+water/0.2
+]
+}
+
+requirements: [
+copper/25
+silicon/10
+lead/15
+silver/10
+]
+}

@@ -1,0 +1,38 @@
+name: rubid reconstructor
+type: Reconstructor
+regionSuffix: "-dark"
+size: 3
+health: 550
+constructTime: 3875
+upgrades: [
+  [dagger, rubid]
+]
+consumes: {
+power: 3.6
+liquid:{
+    liquid: water
+    amount: 0.084
+}
+items:{
+  items: [
+  silicon/45
+  silver/55
+  graphite/50
+  ]
+}
+}
+category: units
+research: {
+parent: tank-fabricator
+objectives: [
+  {
+    type: OnSector
+    preset: aegis
+  }
+  ]
+}
+requirements: [
+  graphite/180
+  silicon/270
+  silver/120
+]

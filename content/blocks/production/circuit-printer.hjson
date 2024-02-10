@@ -1,0 +1,30 @@
+{
+name: Circuit printer
+description: prints electronic circuits from empty boards and many lead
+type: GenericCrafter
+health: 1000
+size: 3
+category: crafting
+research: thorium
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItem: electronic-circuit/1
+
+consumes: {
+items: [
+lead/4
+empty-board/1
+]
+liquids: [
+sporine/0.2
+ozone/0.2
+]
+}
+requirements: [
+plastanium/250
+thorium/65
+empty-board/15
+aluminium/55
+]
+}

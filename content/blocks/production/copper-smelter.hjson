@@ -1,0 +1,24 @@
+{
+name: Copper Smelter
+type: GenericCrafter
+health: 1000
+size: 2
+category: crafting
+research: silver
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputLiquid: molten-copper/0.2
+
+consumes: {
+items: [
+copper/2
+]
+}
+
+requirements: [
+copper/55
+silver/25
+titanium/40
+]
+}

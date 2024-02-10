@@ -1,0 +1,17 @@
+{
+  "name": "rem"
+  "displayName": "Random Expansion Mod"
+  "author":
+    '''
+    oleksiy
+    '''
+  "description":
+    '''
+    mod which expands serpulo end erekir and adds ways to get oil and slag from normal items, beta version
+    '''
+  "subtitle": "made with poland"
+  "version": "0.14"
+  "hidden": true
+  "minGameVersion": 136
+  "dependencies": []
+}

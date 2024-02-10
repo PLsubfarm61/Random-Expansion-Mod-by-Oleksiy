@@ -1,0 +1,27 @@
+{
+name: biomass cultivator
+description: grows some biomass by biofluid and sporine
+type: GenericCrafter
+health: 1000
+size: 2
+category: crafting
+research: biofluid
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItem: biomass/1
+
+consumes: {
+liquids: [
+biowater/0.4
+sporine/0.2
+]
+}
+
+requirements: [
+aluminium/25
+silicon/65
+silver/95
+steel/55
+]
+}
