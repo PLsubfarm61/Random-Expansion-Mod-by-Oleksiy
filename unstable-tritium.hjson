@@ -1,7 +1,0 @@
-{
-	type: material,
-  description: very unstable material made by growing tritium and biowater
-	name: Unstable tritium
-	cost: 3.0,
-	color: cbd97f
-}
