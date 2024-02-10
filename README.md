@@ -1,2 +1,4 @@
 # Random Expansion [Mod by Oleksiy]
-Discord link - https://discord.gg/HhGnWJRSHs
+Creator (Oleksiy) - nekoarkagain_83361
+REN Discord link - https://discord.gg/HhGnWJRSHs
+MMM Discord link - https://discord.gg/7SSAupjxeD
