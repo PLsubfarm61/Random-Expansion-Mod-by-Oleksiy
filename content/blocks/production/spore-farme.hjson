@@ -1,0 +1,17 @@
+{
+name: Spore farm
+description: spore
+type: GenericCrafter
+health: 1000
+size: 2
+category: crafting
+research: spore-pod
+
+craftTime: 80
+craftEffect: vapor
+outputItem: spore-pod/1
+
+requirements: [
+spore-pod/5
+]
+}

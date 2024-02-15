@@ -1,0 +1,26 @@
+{
+name: Sporine generator
+description: generates sporine from spore pods and dryed spores
+type: GenericCrafter
+health: 1000
+size: 4
+category: production
+research: sporine
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputLiquid: sporine/0.3
+
+consumes: {
+items: [
+spore-pod/1
+dryed-spores/1
+]
+}
+
+requirements: [
+raw-iridium/65
+spore-pod/35
+dryed-spores/45
+]
+}

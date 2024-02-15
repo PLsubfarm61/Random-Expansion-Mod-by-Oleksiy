@@ -1,0 +1,14 @@
+{
+type: material
+name: radiated dust
+description: dust mixed from sporine, crushed raw iridium and spore pods,used in stronger creatures and turrets
+cost: 3.0
+color: ffffff
+research: thorium
+
+explosiveness: 2
+flammability: 0
+radioactivity: 4
+charge: 2
+hardness: 4
+}

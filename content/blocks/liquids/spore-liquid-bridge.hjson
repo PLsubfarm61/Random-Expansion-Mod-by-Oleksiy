@@ -1,0 +1,13 @@
+type: LiquidBridge
+name: Spore liquid bridge
+health: 100
+liquidCapacity: 10
+category: liquid
+hasPower: false
+range: 3
+requirements: [
+  dryed-spores/6
+  spore-pod/2
+]
+research: water
+alwaysUnlocked: true

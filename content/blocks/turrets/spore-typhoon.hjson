@@ -1,0 +1,154 @@
+type: ItemTurret
+name: Spore typhoon
+description: Rapidly blasts bullets at enemies. 
+size: 3
+squareSprite: false
+reload: 4
+range: 200
+outlineColor: 42413e
+coolantMultiplier: 0.5
+researchCostMultiplier: 0.5
+consumes: {
+  coolant: {
+    amount: 0.5
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+}
+category: turret
+research: spore-hail
+shootSound: shoot-dull
+requirements: [
+  radiated-dust/26
+  raw-iridium/90
+  dryed-spores/70
+  spore-pod/60
+]
+ammoTypes: {
+  dryed-spores: {
+    reloadMultiplier: 0.8
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    inaccuracy: 11
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: true
+    pierceCap: 1
+    damage: 10
+    splashDamage: 25
+    splashDamageRadius: 12
+    ammoMultiplier: 8
+  }
+  spore-pod: {
+    reloadMultiplier: 0.85
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    inaccuracy: 10
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: true
+    pierceCap: 1
+    damage: 10
+    splashDamage: 15
+    splashDamageRadius: 12
+    ammoMultiplier: 8
+  }
+  raw-iridium: {
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    inaccuracy: 8
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: true
+    pierceCap: 1
+    damage: 15
+    splashDamage: 25
+    splashDamageRadius: 16
+    ammoMultiplier: 9
+  }
+  crushed-raw-iridium: {
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    inaccuracy: 7
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: true
+    pierceCap: 2
+    damage: 15
+    status: corroded
+    splashDamage: 5
+    splashDamageRadius: 16
+    ammoMultiplier: 9
+  }
+  radiated-dust: {
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    inaccuracy: 6
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: true
+    pierceCap: 2
+    damage: 35
+    splashDamage: 25
+    splashDamageRadius: 16
+    ammoMultiplier: 10
+    fragBullets: 4
+    fragVelocityMin: 0.4
+    fragLifeMin: 0.45
+    fragBullet: {
+      type: BasicBulletType
+      speed: 2
+      lifetime: 30
+      width: 6
+      height: 9
+      pierce: true
+      pierceCap: 1
+      damage: 12
+      splashDamage: 16
+      splashDamageRadius: 4
+    }
+  }
+  lead: {
+    reloadMultiplier: 1.1
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    inaccuracy: 6
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: true
+    pierceCap: 3
+    damage: 1
+    splashDamage: 1
+    splashDamageRadius: 22
+    ammoMultiplier: 12
+    fragBullets: 6
+    fragVelocityMin: 0.4
+    fragLifeMin: 0.45
+    fragBullet: {
+      type: BasicBulletType
+      speed: 2
+      lifetime: 30
+      width: 6
+      height: 9
+      pierce: true
+      pierceCap: 1
+      damage: 16
+      splashDamage: 20
+      splashDamageRadius: 4
+    }
+  }
+}

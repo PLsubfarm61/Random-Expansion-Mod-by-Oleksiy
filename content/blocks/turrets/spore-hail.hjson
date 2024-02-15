@@ -1,0 +1,44 @@
+type: itemTurret
+name: "Spore hail"
+description: "Shoot the strong stun bullet"
+health: 1910
+shots: 1
+size: 3
+reload: 170
+range: 280
+outlineColor: "2a2c35"
+squareSprite: false
+ammoTypes:{
+    dryed-spores:{
+        speed: 6
+        lifetime: 46.6
+        damage: 25
+        width: 10
+        height: 13
+        status: unmoving
+        statusDuration: 120
+        buildingDamageMultiplier: 0.3
+    }
+    raw-iridium:{
+        speed: 6
+        lifetime: 46.6
+        damage: 45
+        width: 10
+        height: 13
+        status: unmoving
+        statusDuration: 160
+        buildingDamageMultiplier: 0.3
+    }
+}
+category: turret
+research: hail
+drawer: {
+ type: DrawTurret
+ basePrefix: spiky-
+}
+
+requirements: [
+    dryed-spores/80
+    spore-pod/120
+    raw-iridium/170
+]

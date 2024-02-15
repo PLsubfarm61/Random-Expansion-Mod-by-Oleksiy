@@ -1,0 +1,12 @@
+{
+name: Living wall
+type: wall
+health: 1100
+size: 2
+category: defense
+research: silver
+
+requirements: [
+spore-pod/24
+]
+}

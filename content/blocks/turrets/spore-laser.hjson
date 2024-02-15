@@ -1,0 +1,57 @@
+name: Spore laser
+type: ContinuousLiquidTurret
+size: 3
+range: 150
+health: 1635
+rotateSpeed: 1.65
+shootSound: laser
+shootShake: 1.1
+liquidConsumed: 0.2
+outlineColor: "2a2c35"
+squareSprite: false
+ammoTypes: {
+  sporine: {
+  type: ContinuousFlameBulletType
+  length: 150
+  damage: 25
+  pierceCap: 4
+  colors: ["0071e4", "3c9cff", "1287ff"]
+  flareColor: "0071e4"
+  buildingDamageMultiplier: 0.3
+  hitColor: "0071e4"
+  }
+  water: {
+  type: ContinuousFlameBulletType
+  rangeChange: 50
+  length: 200
+  damage: 25
+  pierceCap: 6
+  colors: ["29a600", "43c818", "56dd2b"]
+  flareColor: "56dd2b"
+  buildingDamageMultiplier: 0.3
+  hitColor: "56dd2b"
+  }
+  arkycite: {
+  type: ContinuousFlameBulletType
+  rangeChange: 90
+  length: 240
+  damage: 40
+  pierceCap: 8
+  colors: ["9e172c", "e05438", "f98f4a"]
+  flareColor: "f98f4a"
+  buildingDamageMultiplier: 0.3
+  hitColor: "f98f4a"
+  }
+}
+category: turret
+research: copper
+drawer:{
+ type: DrawTurret
+ basePrefix: spiky-
+}
+
+requirements: [
+  spore-pod/295
+  dryed-spores/65
+  radiated-dust/65
+]

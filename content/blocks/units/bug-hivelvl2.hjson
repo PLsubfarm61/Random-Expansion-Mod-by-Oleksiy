@@ -1,0 +1,23 @@
+type: UnitFactory
+name: Bug hive level 2
+description: Mosquito hive, they spawn and live here
+size: 3
+customShadow: true
+placeablePlayer: true
+drawTeamOverlay: false
+squareSprite: false
+unitCapModifier: 1
+health: 3000
+requirements: [
+spore-pod/700
+raw-iridium/700
+dryed-spores/300
+]
+plans: [
+  {
+    unit: mosquito
+    requirements: []
+    time: 7600
+  }
+]
+consumes: {}

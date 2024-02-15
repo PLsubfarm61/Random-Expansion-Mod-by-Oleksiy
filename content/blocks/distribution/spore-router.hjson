@@ -1,0 +1,12 @@
+type: Router 
+name: Spore router
+health: 80
+itemCapacity: 6
+requirements: [
+  spore-pod/6
+] 
+category: distribution
+research: {
+    parent: spore-junction
+},
+alwaysUnlocked: true

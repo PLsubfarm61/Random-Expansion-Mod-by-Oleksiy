@@ -8,9 +8,15 @@
   "description":
     '''
     mod which expands serpulo end erekir and adds ways to get oil and slag from normal items, beta version
+credits:
+catana for spore faction idea and code for spore hive
+polish subfarm for some sprites and fixes
+sapphirium cuz im used their sprites (sorry)
+R.O.T for sprites (really sorry)
+current version:0.17
     '''
   "subtitle": "made with poland"
-  "version": "0.14"
+  "version": "0.17"
   "hidden": true
   "minGameVersion": 136
   "dependencies": []

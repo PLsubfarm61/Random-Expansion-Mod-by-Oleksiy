@@ -1,0 +1,23 @@
+type: UnitFactory
+name: Spore hive level 2
+description: Enemy third creature factory
+size: 3
+customShadow: true
+placeablePlayer: true
+drawTeamOverlay: false
+squareSprite: false
+unitCapModifier: 3
+health: 5000
+requirements: [
+spore-pod/300
+raw-iridium/200
+dryed-spores/100
+]
+plans: [
+  {
+    unit: camper
+    requirements: []
+    time: 6000
+  }
+]
+consumes: {}

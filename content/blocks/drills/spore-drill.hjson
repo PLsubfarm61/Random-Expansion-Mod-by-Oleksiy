@@ -1,0 +1,25 @@
+type: BurstDrill
+name: Spore drill
+description: uses air as power to work
+size: 2
+category: production
+hardnessDrillMultiplier: 50
+research: spore-pod
+drillTime: 270
+hasPower: false
+tier: 3
+shake: 1
+itemCapacity: 30
+researchCostMultiplier: 0.5
+drillEffect: {
+  type: WaveEffect
+  sizeFrom: 0.1
+  sizeTo: 14
+  strokeFrom: 1.1
+  strokeTo: 0.2
+  colorFrom: 8f8d87
+  colorTo: 6b6a66
+  lifetime: 20
+}
+requirements: []
+squareSprite: false

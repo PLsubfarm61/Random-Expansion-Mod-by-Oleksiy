@@ -1,0 +1,12 @@
+{
+name: Small living wall
+type: wall
+health: 460
+size: 1
+category: defense
+research: silver-wall
+
+requirements: [
+spore-pod/6
+]
+}

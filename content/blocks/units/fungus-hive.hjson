@@ -1,0 +1,22 @@
+type: UnitFactory
+name: Fungus hive
+description: fungus hive
+size: 3
+customShadow: true
+placeablePlayer: true
+drawTeamOverlay: false
+squareSprite: false
+health: 5000
+requirements: [
+spore-pod/1100
+raw-iridium/670
+dryed-spores/450
+]
+plans: [
+  {
+    unit: fungus
+    requirements: []
+    time: 9000
+  }
+]
+consumes: {}

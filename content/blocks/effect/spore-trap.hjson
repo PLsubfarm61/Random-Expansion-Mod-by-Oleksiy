@@ -1,0 +1,23 @@
+  type: ShockMine
+  name: Explosive Trap
+  description: Spore trap which eats units by tooths but it gets destroyed after use
+  hasShadow: false
+size: 2
+  health: 180
+  damage: 30
+  tileDamage: 9
+  length: 10
+  tendrils: 4
+  category: effect
+  research: 11k-01-core-essence
+  bullet: {
+    type: ExplosionBulletType
+    splashDamage: 45
+    splashDamageRadius: 24
+    killShooter: true
+  }
+  requirements: [
+    spore-pod/30
+    raw-iridium/15
+  ]
+researchCostMultiplier: 0.5

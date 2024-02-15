@@ -1,0 +1,16 @@
+type: CoreBlock
+name: Spore heart level 2
+description: Spore heart of the next level, if all of these gets destroyed, spores will die
+requirements: [
+  dryed-spores/1600
+  raw-iridium/1200
+]
+isFirstTier: true
+size: 4
+squareSprite: false
+alwaysUnlocked: true
+unitType: camper
+health: 2900
+itemCapacity: 4500
+unitCapModifier: 10
+category: effect

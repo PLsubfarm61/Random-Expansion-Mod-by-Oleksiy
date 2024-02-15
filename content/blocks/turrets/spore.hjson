@@ -1,0 +1,64 @@
+type: ItemTurret
+name: Spore
+description: The spore first living turret, shoots flak bullets at small range
+size: 2
+reload: 30
+shoot: {
+  shots: 5
+  shotDelay: 2
+}
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+inaccuracy: 15
+range: 120
+category: turret
+shootSound: shoot-dull
+outlineColor: 42413e
+research: {
+  parent: duo
+  requirements: [
+    spore-pod/250  
+  ]
+}
+researchCostMultiplier: 0.05
+requirements: [
+  spore-pod/50
+  dryed-spores/25
+]
+targetGround: true
+targetAir: true
+ammoTypes: {
+  spore-pod: {
+    type: FlakBulletType
+    width: 7
+    height: 9
+    speed: 4
+    lifetime: 50
+    collidesGround: true
+    collidesAir: true
+    ammoMultiplier: 5
+    damage: 25
+    splashDamage: 5
+    splashDamageRadius: 8
+  }
+  dryed-spores: {
+    type: FlakBulletType
+    width: 7
+    height: 9
+    speed: 4
+    lifetime: 50
+    ammoMultiplier: 6
+    collidesGround: true
+    collidesAir: true
+    damage: 40
+    splashDamage: 10
+    splashDamageRadius: 12
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+}

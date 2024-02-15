@@ -1,0 +1,17 @@
+{
+name: Spore dehydrater
+description: other spores dehydrates their pods to make dryed spores
+type: GenericCrafter
+health: 1000
+size: 2
+category: crafting
+research: dryed-spores
+
+craftTime: 80
+craftEffect: vapor
+outputItem: dryed-spores/1
+
+requirements: [
+spore-pod/40
+]
+}

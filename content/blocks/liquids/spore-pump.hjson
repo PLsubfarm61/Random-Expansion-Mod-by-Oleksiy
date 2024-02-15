@@ -1,0 +1,18 @@
+type: Pump
+name: spore pipe
+health: 600
+size: 3
+pumpAmount: 0.03334
+squareSprite: false
+category: liquid
+hasPower: false
+requirements: [
+  spore-pod/30
+  raw-iridium/60
+]
+research: {
+    parent: spore-pod
+},
+researchCost: [
+    spore-pod/60
+  ]

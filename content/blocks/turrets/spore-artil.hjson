@@ -1,0 +1,65 @@
+type: ItemTurret
+name: Spore artillery
+description: Shoots artillery bullets from spores
+size: 2
+reload: 30
+shoot: {
+  shots: 2
+  shotDelay: 2
+}
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+range: 280
+category: turret
+shootSound: shoot-dull
+outlineColor: 42413e
+research: {
+  parent: duo
+  requirements: [
+    spore-pod/250  
+  ]
+}
+researchCostMultiplier: 0.05
+requirements: [
+  spore-pod/50
+  dryed-spores/25
+]
+targetGround: true
+targetAir: true
+ammoTypes: {
+  spore-pod: {
+    type: BasicBulletType
+    width: 7
+    height: 9
+    damage: 10
+    speed: 4
+    lifetime: 50
+    collidesGround: true
+    collidesAir: true
+    ammoMultiplier: 5
+    damage: 18
+    splashDamage: 15
+    splashDamageRadius: 8
+  }
+  dryed-spores: {
+    type: BasicBulletType
+    width: 7
+    height: 9
+    damage: 15
+    speed: 4
+    lifetime: 50
+    ammoMultiplier: 6
+    collidesGround: true
+    collidesAir: true
+    damage: 40
+    splashDamage: 20
+    splashDamageRadius: 12
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+}

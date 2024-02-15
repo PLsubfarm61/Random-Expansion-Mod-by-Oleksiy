@@ -1,0 +1,11 @@
+type: Junction
+name: Spore junction
+health: 80
+speed: 27
+capacity: 3
+requirements: [
+  spore-pod/3
+] 
+category: distribution
+research: conveyor
+alwaysUnlocked: true

@@ -1,0 +1,14 @@
+{
+type: material
+name: crushed raw iridium
+description: crushed version of raw iridium, used to make radiated dust or other resources.
+cost: 3.0
+color: ffffff
+research: thorium
+
+explosiveness: 0.60
+flammability: 0
+radioactivity: 7
+charge: 2
+hardness: 0
+}

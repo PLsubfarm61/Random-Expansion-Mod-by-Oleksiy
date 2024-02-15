@@ -1,0 +1,49 @@
+
+	"type": "itemTurret",
+	"name": "spore missile",
+	"description": "Basic turret.",
+	"health": 800,
+	"size": 2,
+        "maxAmmo": 6
+	"recoil": 1,
+	"rotatespeed": 20,
+	"targetAir": true,
+	"targetGround": true,
+	"inaccuracy": 1,
+	"reload": 30,
+	"range": 150,
+	"ammoPerShot": 2,
+	"ammoTypes": {
+		"spore-pod": {
+			ammoMultiplier: 3
+			type: MissileBulletType
+			"damage": 20,
+			"speed": 4,
+			"lifetime": 42,
+			"width": 10,
+			"height": 12,
+		},
+		"raw-iridium": {
+			ammoMultiplier: 1
+			type: MissileBulletType
+			"reloadMultiplier":0.5
+			"damage": 29,
+			"speed": 5,
+			"lifetime": 36,
+			"width": 13,
+			"height": 15,
+			"homingPower":0.02
+			"hitEffect": "flakExplosion",
+            		"despawnEffect": "flakExplosion"
+			"frontColor":"ffa400" ,
+			"backColor": "e46b14",
+		}
+	},
+	"requirements":
+	[
+		{"item": "spore-pod", "amount": 60},
+                {"item": "raw-iridium", "amount": 30}
+	],
+	"category": "turret",
+	"research": "duo"
+alwaysUnlocked: true

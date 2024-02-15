@@ -1,0 +1,15 @@
+type: Conveyor
+name: Spore conveyor
+description: Transports items using negative pressure.
+category: distribution
+alwaysUnlocked: true
+research: spore-pod
+researchCost: [
+  spore-pod/10
+]
+speed: 0.05
+health: 45
+bridgeReplacement: junction
+requirements: [
+  spore-pod/1
+]

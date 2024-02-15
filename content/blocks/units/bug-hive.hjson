@@ -1,0 +1,22 @@
+type: UnitFactory
+name: Bug hive
+description: Hive where bugs live and spawn
+size: 2
+customShadow: true
+placeablePlayer: true
+drawTeamOverlay: false
+squareSprite: false
+unitCapModifier: 1
+health: 3000
+requirements: [
+spore-pod/600
+raw-iridium/500
+]
+plans: [
+  {
+    unit: bug
+    requirements: []
+    time: 6000
+  }
+]
+consumes: {}

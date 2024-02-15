@@ -1,0 +1,45 @@
+research: radiate
+type: RegenProjector
+name: Spore regenerator
+description: Slowly restores the health of nearby allied blocks. Requires Air.
+size: 1
+range: 6
+baseColor: 85c278
+squareSprite: false
+effect: {
+  type: ParticleEffect
+  colorFrom: 85c278
+  colorTo: 69a25e
+  particles: 3
+  line: true
+  length: 3
+  baseLength: 2
+  strokeFrom: 0.6
+  strokeTo: 1.6
+  lifetime: 90
+  cone: 360
+  interp: pow2
+  sizeInterp: pow2Out
+}
+consumes: {}
+healPercent: 0.0166667
+requirements: [
+  spore-pod/30
+  raw-iridium/30
+]
+category: effect
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawPulseShape
+      square: true
+      color: 85c278
+      layer: 110
+    }
+  ]
+} 
+researchCostMultiplier: 0.5

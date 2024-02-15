@@ -1,0 +1,18 @@
+type: CoreBlock
+name: Spore heart level 3
+description: Spore heart of the third level, if all of these gets destroyed, spores will die
+requirements: [
+  dryed-spores/1600
+  raw-iridium/2000
+  spore-pod/3000
+  radiated-dust/120
+]
+isFirstTier: true
+size: 5
+squareSprite: false
+alwaysUnlocked: true
+unitType: camper
+health: 2900
+itemCapacity: 7600
+unitCapModifier: 10
+category: effect

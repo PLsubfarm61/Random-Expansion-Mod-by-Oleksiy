@@ -1,0 +1,16 @@
+type: CoreBlock
+name: Spore heart
+description: Spore heart of the first level, if all of these gets destroyed, spores will die
+requirements: [
+  spore-pod/16000
+  raw-iridium/12000
+]
+isFirstTier: true
+size: 3
+squareSprite: false
+alwaysUnlocked: true
+unitType: radiate
+health: 1450
+itemCapacity: 4500
+unitCapModifier: 8
+category: effect

@@ -1,0 +1,24 @@
+{
+name: Iridium crusher
+description: crushes raw iridium into crushed version
+type: GenericCrafter
+health: 1000
+size: 3
+category: crafting
+research: spore-pod
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItem: crushed-raw-iridium/2
+consumes: {
+items: [
+raw-iridium/1
+]
+}
+
+requirements: [
+dryed-spores/55
+raw-iridium/25
+spore-pod/40
+]
+}

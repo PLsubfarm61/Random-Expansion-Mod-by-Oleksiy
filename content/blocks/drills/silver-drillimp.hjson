@@ -13,7 +13,7 @@ outputItem: silver/6
 consumes: {
 liquids: [
 sporine/0.4
-water/0.2
+cryofluid/0.2
 ]
 }
 

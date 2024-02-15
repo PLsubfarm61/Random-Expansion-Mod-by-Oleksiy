@@ -1,0 +1,22 @@
+type: UnitFactory
+name: Spore hive
+description: Enemy forst creature factory
+size: 2
+customShadow: true
+placeablePlayer: true
+drawTeamOverlay: false
+squareSprite: false
+unitCapModifier: 3
+health: 5000
+requirements: [
+spore-pod/300
+raw-iridium/250
+]
+plans: [
+  {
+    unit: radiate
+    requirements: []
+    time: 3000
+  }
+]
+consumes: {}
